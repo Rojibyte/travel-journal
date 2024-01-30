@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 1920px;
+}
+
+.card {
+  padding: 2em;
+}
