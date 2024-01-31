@@ -1,4 +1,4 @@
-import globe from "../../public/assets/globe.png";
+import globe from "/assets/globe.png";
 
 export default function Navbar() {
   return (

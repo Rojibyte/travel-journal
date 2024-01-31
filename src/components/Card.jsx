@@ -3,13 +3,13 @@ export default function Card(props) {
   return (
     <div className="flex text-gray-950 ">
       <img
-        src={`../../public/assets/${props.coverImg}`}
+        src={`/assets/${props.coverImg}`}
         alt=""
         className="size-max mr-4"
       />
       <div className="cardContent">
         <div className="cardLocation text-xs flex items-center">
-          <img src="../../public/assets/path.png" alt="" className="size-max" />
+          <img src="/assets/path.png" alt="" className="size-max" />
           <span className="pl-1 pr-4 uppercase tracking-widest">
             {props.location}
           </span>
