@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <section>{Cards}</section>
+      <section className="p-8">{Cards}</section>
     </>
   );
 }
