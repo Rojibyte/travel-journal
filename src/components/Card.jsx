@@ -1,7 +1,7 @@
 export default function Card(props) {
   console.log(props);
   return (
-    <div className="p-8 flex text-gray-950">
+    <div className="flex text-gray-950 ">
       <img
         src={`../src/assets/${props.coverImg}`}
         alt=""
