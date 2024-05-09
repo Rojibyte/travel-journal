@@ -2,11 +2,7 @@ export default function Card(props) {
   console.log(props);
   return (
     <div className="flex text-gray-950 ">
-      <img
-        src={`/assets/${props.coverImg}`}
-        alt=""
-        className="size-max mr-4"
-      />
+      <img src={`/assets/${props.coverImg}`} alt="" className="size-max mr-4" />
       <div className="cardContent">
         <div className="cardLocation text-xs flex items-center">
           <img src="/assets/path.png" alt="" className="size-max" />
